@@ -36,6 +36,7 @@ Await DecryptFileAsync(inputFilePath, outputFilePath, EncryptionKey, EncryptionI
 
 🔑 RSA Cryptography
 
+```vb.net
 ' Generate and manage key pairs
 Await GenerateRsaKeysAsync(keySize, seed)
 RSA_ExportGeneratedKeyPairs()
