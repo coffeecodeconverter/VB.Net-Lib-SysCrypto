@@ -31,3 +31,35 @@ Await DecryptAsync(data, EncryptionKey, EncryptionIV)
 ' File encryption/decryption
 Await EncryptFileAsync(inputFilePath, outputFilePath, EncryptionKey, EncryptionIV)
 Await DecryptFileAsync(inputFilePath, outputFilePath, EncryptionKey, EncryptionIV)
+
+
+
+🔑 RSA Cryptography
+
+' Generate and manage key pairs
+Await GenerateRsaKeysAsync(keySize, seed)
+RSA_ExportGeneratedKeyPairs()
+RSA_ImportGeneratedKeyPairs()
+
+' Encrypt/decrypt
+RsaEncrypt(plainText, publicKeyPem, salt)
+RsaDecrypt(cipherText, privateKeyPem, salt)
+
+' Sign/verify
+RsaSignData(data, privateKeyPem, salt)
+RsaVerifySignature(data, signature, publicKeyPem, salt)
+
+' Key inspection
+RSA_ExtractLastCharsFromKey(publicOrPrivateKey, numOfChars)
+
+
+🧠 System Information
+
+Await GetThe_Computer("Hostname")
+Await GetThe_Computer("CPUName")
+Await GetThe_HardDrive("DriveSerialNumber")
+Await GetThe_Network("IPv4Address")
+Await GetThe_User("Username")
+Await GetFingerprint_Computer()
+
+
