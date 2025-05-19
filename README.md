@@ -8,6 +8,12 @@ A powerful and versatile VB.NET module for gathering system, user, network, and 
 Originally created for a flexible **software licensing system**, but useful across many domains including telemetry, authentication, diagnostics, and hardware binding.
 
 ---
+# 🔐 Sample Application
+The Project comes with an .exe that demonstrates using all of the functions for various tasks. 
+Making it easy to learn how to integrate this module into your existing projects. 
+It includes demonstrations on generating licenses, either as .LIC files or using serial keys. 
+
+---
 
 ## ✅ Requirements
 
