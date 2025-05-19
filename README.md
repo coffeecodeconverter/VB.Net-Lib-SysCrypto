@@ -32,7 +32,7 @@ Await DecryptAsync(data, EncryptionKey, EncryptionIV)
 Await EncryptFileAsync(inputFilePath, outputFilePath, EncryptionKey, EncryptionIV)
 Await DecryptFileAsync(inputFilePath, outputFilePath, EncryptionKey, EncryptionIV)
 
-
+---
 
 🔑 RSA Cryptography
 
