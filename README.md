@@ -23,7 +23,7 @@ Originally created for a flexible **software licensing system**, but useful acro
 
 ### 🔐 AES Encryption / Decryption
 
-```vb.net
+
 ' String encryption/decryption
 Await EncryptAsync(data, EncryptionKey, EncryptionIV)
 Await DecryptAsync(data, EncryptionKey, EncryptionIV)
@@ -52,7 +52,7 @@ RsaVerifySignature(data, signature, publicKeyPem, salt)
 
 ' Key inspection
 RSA_ExtractLastCharsFromKey(publicOrPrivateKey, numOfChars)
-
+```
 
 🧠 System Information
 
